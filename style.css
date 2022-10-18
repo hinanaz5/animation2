@@ -1,0 +1,25 @@
+
+  
+  .maintext {
+    
+
+position: relative;
+
+animation-name: moving-text;
+animation-duration: 3s;
+animation-timing-function: ease;
+
+animation-iteration-count: 1;    
+}
+  
+ 
+  @keyframes moving-text {
+    from{margin-left: 150%;}
+    to{margin-left: 0%;}
+  }
+
+  /* @keyframes moving-text {
+    0%{ top: 0px; left: 1000px;}
+    50%{top: 0px; left: 500px;}
+    100%{top: 0px; left: 0px;}
+  } */
